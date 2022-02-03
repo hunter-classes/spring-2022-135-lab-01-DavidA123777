@@ -8,10 +8,10 @@ int main(){
   cout << "Please enter in another integer: " << endl;
   cin >> b;
 
-  if (a < b){
+  if (a <= b){
     cout << "The smaller of the two is: " << a << endl;
   }
-  if (b < a){
+  else if (b <= a){
     cout << "The smaller of the two is: " << b << endl;
   }
 
